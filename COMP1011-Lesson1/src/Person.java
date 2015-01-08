@@ -1,6 +1,7 @@
 //putting classes in to their own pages makes it cleaner, classes within classes are called inner classes, and work a lot differently than what we are used it
 
 public class Person{
+	//variables
 		private float height;
 		private float weight;
 		private String name;
