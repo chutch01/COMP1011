@@ -2,15 +2,15 @@
 public class Player {
 
 	public static void main(String[] args) {
-		int strength = 10;
-		Person tom = new Person();
-		System.out.println("Hello World! " + strength);
-		tom.walks();
-		tom.walks();
-		tom.walks();
-		tom.eats();
+		int year = 2015;
+		System.out.println("Hello World It's " + year + "!");
 		
-		tom.setHeight(7);
+		Person tom = new Person("Tom", 225.3f);
+		tom.walks();
+		
+		Person mike = new Person("Mike", 180.9f);
+		mike.walks();
+	
 	}
 	
 }

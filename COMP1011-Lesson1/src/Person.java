@@ -3,6 +3,7 @@
 public class Person{
 		private float height;
 		private float weight;
+		private String name;
 		
 		//getters and setters
 		public float getHeight() {
@@ -14,21 +15,22 @@ public class Person{
 		}
 
 		//constructor
-		public Person(){
+		public Person(String name, float weight){
+			this.name = name;
 			this.setHeight(6);
-			this.weight = 200;
+			this.weight = weight;
 		}
 		
 		public void walks(){
 			this.weight *= 0.9;
-			System.out.println("You lost weight!");
-			System.out.println("You weigh: " + this.weight +"lbs");
+			System.out.println(this.name +" lost weight!");
+			System.out.println(this.name +" weighs: " + this.weight +"lbs");
 		}
 		
 		public void eats(){
 			this.weight *= 1.2;
-			System.out.println("you gained wait you fat tub of lard!");
-			System.out.println("You weigh: " + this.weight + "lbs");
+			System.out.println(this.name +" gained wait you fat tub of lard!");
+			System.out.println(this.name +" weighs: " + this.weight + "lbs");
 		}
 		
 	}
