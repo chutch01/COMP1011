@@ -9,7 +9,8 @@ public class Player {
 		tom.walks();
 		tom.walks();
 		tom.eats();
-
+		
+		tom.setHeight(7);
 	}
 	
 }

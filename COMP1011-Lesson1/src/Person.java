@@ -1,11 +1,21 @@
 //putting classes in to their own pages makes it cleaner, classes within classes are called inner classes, and work a lot differently than what we are used it
 
 public class Person{
-		float height;
-		float weight;
+		private float height;
+		private float weight;
+		
+		//getters and setters
+		public float getHeight() {
+			return height;
+		}
+
+		public void setHeight(float height) {
+			this.height = height;
+		}
+
 		//constructor
 		public Person(){
-			this.height = 6;
+			this.setHeight(6);
 			this.weight = 200;
 		}
 		
