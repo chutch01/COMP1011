@@ -10,6 +10,11 @@ public class Player {
 		
 		Person mike = new Person("Mike", 180.9f);
 		mike.walks();
+		
+		Person matt = new Person("Matt", 220.1f);
+		matt.walks();
+		matt.eats();
+		
 	
 	}
 	
