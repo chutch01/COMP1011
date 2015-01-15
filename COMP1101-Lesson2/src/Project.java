@@ -3,7 +3,7 @@ public class Project {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Hero bigMan = new Hero ("Big Man");
+		Strongman bigMan = new Strongman ("Big Man");
 		bigMan.fight();
 		bigMan.run();
 		bigMan.showAbilities();
@@ -11,6 +11,11 @@ public class Project {
 		villan.run();
 		villan.steals();
 		villan.showAbilities();
+		Vigilante vigilante = new Vigilante("Ms. Savage");
+		vigilante.run();
+		vigilante.steals();
+		vigilante.dealsJustice();
+		vigilante.showAbilities();
 		
 	}
 

@@ -1,8 +1,8 @@
 
-public class Hero {
+public class Hero implements Action {
 	//private properties++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-	private int strength;
-	private int speed;
+	protected int strength;
+	protected int speed;
 	private int health;
 	
 	//public properties+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -29,7 +29,7 @@ public class Hero {
 		
 	}
 	
-	private void generateAbilities(){
+	protected void generateAbilities(){
 		this.strength = (int)(Math.random() * 100 +1);
 		this.speed = (int)(Math.random() * 100 +1);
 		this.health = (int)(Math.random() * 100 +1);
