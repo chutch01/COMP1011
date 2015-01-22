@@ -7,10 +7,15 @@ public class Project {
 		bigMan.fight();
 		bigMan.run();
 		bigMan.showAbilities();
+		
+		
+		
 		Villan villan = new Villan("Sly Man");
 		villan.run();
 		villan.steals();
 		villan.showAbilities();
+		
+		
 		Vigilante vigilante = new Vigilante("Ms. Savage");
 		vigilante.run();
 		vigilante.steals();
